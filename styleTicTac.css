@@ -38,9 +38,9 @@
    border-radius: 1rem;
    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
    font-size: 8vmin;
-   color:#b0413e;
    background-color: #ffffc7;
 }
+
 
 #reset-btn
 {
@@ -76,4 +76,45 @@
 .hide
 {
    display: none;
+}
+
+
+
+      
+.textO
+{
+   color: #fff;
+   text-shadow:
+    0 0 5px #0ff,
+    0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 40px #0ff;
+}
+.textX
+{
+
+   color: #fff;
+   text-shadow:
+    0 0 5px red,
+    0 0 10px red,
+    0 0 20px red,
+    0 0 40px red;
+}  
+
+
+.win-line {
+  position: absolute;
+  width: 0;
+  height: 6px;
+  background: #ff3c3c;
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
+  transition: width 0.4s ease;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+.game {
+  position: relative;
 }
